@@ -20,6 +20,6 @@ Structure: `public/index.html`. Visual system: `public/design-v2.css` layered af
 
 The backend integration suite passed after the layout update. Browser checks verified the desktop layout, 375px phone viewport, menu open/close, no horizontal page overflow at that phone width, and completion of a fictional booking without reminder opt-in.
 
-This revision is saved locally and included in the redesigned project archive. Publication could not proceed because the source repository network connection was blocked and this session does not allow the required network permission. The previously published private Site remains on its earlier design.
+This revision is uploaded to matyidemin/hanzelmoto-demo. GitHub Pages is configured to publish the self-contained interactive demonstration from /docs on main. It is a browser-local demo, not a live booking backend. The previous private Sites publication is separate.
 
-The separate `hanzelmoto-redesign-preview.html` is a portable, interactive sales preview. Open it in a browser; use invented data only. It stores demonstration data in localStorage, where the browser permits it, and does not send bookings or messages. Its illustrative photo requires internet access.
+`docs/index.html` is a portable, interactive sales preview. Open the GitHub Pages URL or this file in a browser; use invented data only. It stores demonstration data in localStorage, where the browser permits it, and does not send bookings or messages. Its illustrative photo requires internet access.
