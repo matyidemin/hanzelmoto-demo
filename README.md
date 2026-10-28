@@ -4,6 +4,8 @@ This repository contains an unofficial design demonstration for HANZELMOTO and t
 
 ## Free hosted demo
 
+Open the [interactive browser demo](https://matyidemin.github.io/hanzelmoto-demo/). For the administrator demonstration, use [the admin page](https://matyidemin.github.io/hanzelmoto-demo/#admin) and password `ukazka-hanzelmoto`.
+
 In repository Settings → Pages, choose Deploy from a branch, branch main, folder /docs, then Save. GitHub publishes docs/index.html at the Pages URL shown there. The preview is self-contained and supports repository subpaths. Its illustrative photo requires internet access. Demo administrator password: ukazka-hanzelmoto. This password only gates a device-local demonstration, not private data.
 
 GitHub Pages hosts only the static demonstration. To process real appointments across devices, deploy the Node server and persistent database separately following the application guide below.
