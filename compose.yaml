@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      HOST: 0.0.0.0
+      DB_PATH: /app/data/hanzelmoto.sqlite
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - hanzelmoto-data:/app/data
+volumes:
+  hanzelmoto-data:

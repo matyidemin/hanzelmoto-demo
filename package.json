@@ -1,0 +1,1 @@
+{"name":"hanzelmoto-service","private":true,"type":"module","version":"1.0.0","scripts":{"start":"node --env-file-if-exists=.env server.mjs","build":"node build.mjs","test":"node --test test/*.test.mjs","reminders":"node --env-file-if-exists=.env jobs.mjs"},"engines":{"node":">=24"}}
